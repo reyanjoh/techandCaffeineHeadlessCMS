@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * media-test service
+ * tesst service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::media-test.media-test');
+module.exports = createCoreService('api::tesst.tesst');

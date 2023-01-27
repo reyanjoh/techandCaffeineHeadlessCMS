@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * media-test controller
+ * service controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::media-test.media-test');
+module.exports = createCoreController('api::service.service');
