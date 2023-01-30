@@ -40,6 +40,12 @@
     },
     "Price": {
       "type": "decimal"
+    },
+    "home_page_featured_service": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::home-page-featured-service.home-page-featured-service",
+      "inversedBy": "services"
     }
   }
 }

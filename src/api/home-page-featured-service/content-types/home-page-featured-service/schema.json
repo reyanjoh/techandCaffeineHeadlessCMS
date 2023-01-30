@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_page_featured_services",
+  "info": {
+    "singularName": "home-page-featured-service",
+    "pluralName": "home-page-featured-services",
+    "displayName": "HomePageFeaturedService"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service",
+      "mappedBy": "home_page_featured_service"
+    }
+  }
+}
