@@ -35,8 +35,11 @@
       "target": "api::service-type.service-type",
       "mappedBy": "services"
     },
-    "url": {
+    "coverUrl": {
       "type": "string"
+    },
+    "Price": {
+      "type": "decimal"
     }
   }
 }
