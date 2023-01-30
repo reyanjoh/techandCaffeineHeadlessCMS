@@ -1,5 +1,5 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "home_featured_services",
   "info": {
     "singularName": "home-featured-service",
